@@ -1,0 +1,33 @@
+.App{
+  text-align: center;
+  height: 100%;
+  width:100%;
+  padding-left: auto;
+  padding-right: auto;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.calc{
+
+  flex-direction: column;
+  gap: 10px;
+  margin: auto;
+  padding-bottom: 20px;
+  border: 1px solid black;
+  box-shadow: 2px 4px 6px #888888;
+  border-radius: 10px;
+  height: max-content;
+  width: max-content;
+  padding: 20px;  
+  align-items: center;
+  background-color: white;
+}
+
+button{
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 6px #888888;
+  cursor: pointer;
+}
